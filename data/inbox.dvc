@@ -1,0 +1,6 @@
+outs:
+- md5: 71a3ac31b5c086a1dcdcc0accf17180d.dir
+  size: 5770836
+  nfiles: 211
+  hash: md5
+  path: inbox
