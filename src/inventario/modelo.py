@@ -68,7 +68,7 @@ def ejecutar(fecha, config_path="config/producto.yaml"):
         max_depth=18,
         min_samples_leaf=8,
         random_state=semilla,
-        n_jobs=2,
+        n_jobs=1,
     )
 
     print(f"Ajustando Extra Trees con {len(muestra):,} filas...", flush=True)
