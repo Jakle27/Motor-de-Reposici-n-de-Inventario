@@ -165,3 +165,25 @@ versionar con DVC antes permite conservar la publicación anterior.
 
 El acceso al remoto DVC en otro equipo requiere transferirlo o configurar
 almacenamiento compartido.
+
+
+## Evidencia verificada de reproducción exacta
+
+Se ejecutó:
+
+    python scripts/verificar_reproduccion.py
+
+Para el corte 2017-07-29, desde el commit
+c50b3c9341eeb7e1d7f647ab34c02ad9361f14de:
+
+1. Se creó una copia de trabajo separada en ese commit.
+2. Se recuperaron histórico, bandeja y publicaciones mediante dvc pull.
+3. Se recalcularon ingesta, variables, pronósticos y pedidos con la misma
+   imagen Docker y Extra Trees configurado con n_jobs=1.
+4. Los cuatro CSV resultaron idénticos byte a byte mediante SHA-256.
+
+Resultado: REPRODUCCIÓN CORRECTA.
+Detalle de hashes y entorno: evidencias/reproduccion.json.
+
+Esta prueba utilizó el remoto DVC local. Su acceso desde otro equipo
+requiere una copia del remoto o almacenamiento compartido.

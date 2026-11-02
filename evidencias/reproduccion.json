@@ -1,0 +1,37 @@
+{
+  "commit": "c50b3c9341eeb7e1d7f647ab34c02ad9361f14de",
+  "imagen_docker": "0937a7864a93d09a31e7ce21f5b8eb08768829b5f42882cda883b742dc0ca376",
+  "fecha_corte": "2017-07-29",
+  "recuperacion_dvc_identica": true,
+  "reproduccion_identica": true,
+  "archivos": [
+    {
+      "archivo": "data/published/2017-07-29/pronostico_baseline.csv",
+      "sha256_publicado": "207e867656a4ca9ab63e7eddd5f651411e1a418972a909bf41ac501a704ee6c1",
+      "sha256_recuperado_dvc": "207e867656a4ca9ab63e7eddd5f651411e1a418972a909bf41ac501a704ee6c1",
+      "sha256_recalculado": "207e867656a4ca9ab63e7eddd5f651411e1a418972a909bf41ac501a704ee6c1",
+      "identico": true
+    },
+    {
+      "archivo": "data/published/2017-07-29/pronostico_extra_trees.csv",
+      "sha256_publicado": "ba8969f1c03845b469f15b2ddc74a49815c931c7f583c9d3f715d390958f17cc",
+      "sha256_recuperado_dvc": "ba8969f1c03845b469f15b2ddc74a49815c931c7f583c9d3f715d390958f17cc",
+      "sha256_recalculado": "ba8969f1c03845b469f15b2ddc74a49815c931c7f583c9d3f715d390958f17cc",
+      "identico": true
+    },
+    {
+      "archivo": "data/published/2017-07-29/pedidos_baseline.csv",
+      "sha256_publicado": "71d7a655bd78400914ba7bb0b1e4226a72dee8d9c23e26a43c3dc9c24be897f6",
+      "sha256_recuperado_dvc": "71d7a655bd78400914ba7bb0b1e4226a72dee8d9c23e26a43c3dc9c24be897f6",
+      "sha256_recalculado": "71d7a655bd78400914ba7bb0b1e4226a72dee8d9c23e26a43c3dc9c24be897f6",
+      "identico": true
+    },
+    {
+      "archivo": "data/published/2017-07-29/pedidos_extra_trees.csv",
+      "sha256_publicado": "a0be7afc62042fcb3c6e47b17eba2a945e9526fa8dfde0c0730cec5fe53d7711",
+      "sha256_recuperado_dvc": "a0be7afc62042fcb3c6e47b17eba2a945e9526fa8dfde0c0730cec5fe53d7711",
+      "sha256_recalculado": "a0be7afc62042fcb3c6e47b17eba2a945e9526fa8dfde0c0730cec5fe53d7711",
+      "identico": true
+    }
+  ]
+}
