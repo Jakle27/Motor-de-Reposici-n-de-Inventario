@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+
+# Archivos generados: se versionarán con DVC
+
+# Airflow
+/logs/
+/models

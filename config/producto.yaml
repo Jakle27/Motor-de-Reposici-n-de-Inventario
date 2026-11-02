@@ -1,0 +1,29 @@
+datos:
+  originales: data/raw
+  historico: data/historical
+  bandeja: data/inbox
+  procesados: data/processed
+
+simulacion:
+  fin_historico: "2017-05-31"
+  inicio: "2017-06-01"
+  fin: "2017-08-15"
+  retraso_ventas_dias: 1
+  retraso_transacciones_dias: 2
+  retraso_petroleo_dias: 1
+
+pronostico:
+  horizonte_dias: 7
+  frecuencia_dias: 7
+  semilla: 42
+
+costos:
+  faltante_por_unidad: 5.0
+  merma_por_unidad: 1.0
+
+evaluacion:
+  cortes:
+    - "2017-06-15"
+    - "2017-07-01"
+    - "2017-07-15"
+  mejora_minima_costo: 0.01
